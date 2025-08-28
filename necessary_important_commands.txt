@@ -1,0 +1,53 @@
+----------------------------------------------------------------------------------------Necessary commands for the Project------------------------------------------------------------------------------------------------------------------
+
+Rodrigo@DESKTOP-BVUUJLP MINGW64 /c/fsw
+
+$ npx create-next-app@15.4.1 bewear-shop
+
+Need to install the following packages:
+create-next-app@15.4.1
+Ok to proceed? (y) y
+
+√ Would you like to use TypeScript? ... No / Yes
+√ Would you like to use ESLint? ... No / Yes
+√ Would you like to use Tailwind CSS? ... No / Yes
+√ Would you like your code inside a `src/` directory? ... No / Yes
+√ Would you like to use App Router? (recommended) ... No / Yes
+√ Would you like to use Turbopack for `next dev`? ... No / Yes
+? Would you like to customize the import alias (`@/*` by default)? » No / Yes
+
+-------------------------------------------------Command to install components from shadcn version 2.9.2---------------------------------------------------------
+npx shadcn@2.9.2 init
+
+PS C:\fsw\bewear-shop> npx shadcn@2.9.2 init 
+Need to install the following packages:
+shadcn@2.9.2
+Ok to proceed? (y) y
+
+npm warn deprecated node-domexception@1.0.0: Use your platform's native DOMException instead
+✔ Preflight checks.
+✔ Verifying framework. Found Next.js.
+✔ Validating Tailwind CSS config. Found v4.
+✔ Validating import alias.
+√ Which color would you like to use as the base color? » Neutral
+✔ Writing components.json.
+✔ Checking registry.
+✔ Updating CSS variables in src\app\globals.css
+✔ Installing dependencies.
+✔ Created 1 file:
+  - src\lib\utils.ts
+
+Success! Project initialization completed.
+You may now add components.
+
+------------------------------------------------------------Command to add button component fronm shadcn----------------------------------------------------------------
+
+npx shadcn@2.9.2 add button
+
+------------------------------------------------------------Command for PrettierCSS plugins----------------------------------------------------------------------------
+
+npm install -D prettier@3.6.2 prettier-plugin-tailwindcss@0.6.14
+
+-------------------------------------------------------------Command to install slint plugin simple import sort---------------------------------------------------------
+ 
+npm install --save-dev eslint-plugin-simple-import-sort@12.1.1 
