@@ -67,3 +67,7 @@ npm install --save-dev eslint-plugin-simple-import-sort@12.1.1
 
  npx tsx --env-file .env src/db/seed.ts
 
+ -------------------------------------------------------------command to install shadcn UI components----------------------------------------------------------------------
+
+ npx shadcn@"version" add "UI component you wish to install" or npx shadcn@latest add avatar
+
